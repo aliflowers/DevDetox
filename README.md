@@ -122,13 +122,13 @@ flowchart TD
     G --> J
     H --> J
     
-    J --> K[Opcional: Ver Detalles Exactos (Paths Reales)]
+    J --> K["Opcional: Ver Detalles Exactos (Paths Reales)"]
     K --> L{"Confirmar Acción en UI"}
     
     L -- Cancelado --> C
     L -- Aceptado --> M[Sandboxed Execution Engine]
     
-    M --> N[Validación de Rutas en Lista Blanca (SecurityCore)]
+    M --> N["Validación de Rutas en Lista Blanca (SecurityCore)"]
     N --> O[Ejecución Segura Multihilo]
     O --> P[Liberación de Megabytes]
     P --> C
