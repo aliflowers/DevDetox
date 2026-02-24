@@ -1,0 +1,16 @@
+🚀 Lanza DevDetox 1.0: Suite de Limpieza Modular para Entornos de Desarrollo
+
+Este commit inicializa y consolida la versión completa y definitiva (v1.0) de la herramienta DevDetox para Windows.
+
+✨ Características y Módulos Desarrollados:
+- [x] Motor de Seguridad Base: Implementación estricta de barreras UAC y blindaje anti Path-Traversal limitando el acceso a listas blancas (White-listing).
+- [x] Interfaz Gráfica CustomTkinter: Dashboard interactivo, oscuro, rápido y multihilo.
+- [x] Módulo Windows Core: API nativa dual para Temp y Papelera de reciclaje.
+- [x] Módulo Deep Uninstaller: Consulta WMI del Registro con filtros cruzados de ordenamiento (A-Z, Tamaño, Fecha de Instalación) y rastreo Heurístico de basura en %AppData%.
+- [x] Módulo Caza-Zombis: Escáner de 90+ días de inactividad para aniquilar pesados `node_modules`.
+- [x] Módulo Docker Compactor: Control de apagado para VMs en WSL2 y compactación de diskos `ext4.vhdx` usando Diskpart en caliente.
+- [x] Módulos de Caché Residuales: Purga independiente de Chromium/Firefox, Visual Studio Code (WorkspaceStorage & Crashpads), telemetrías de IA (Cursor/Gemini) y SDKs Android/Gradle.
+- [x] Transparencia y Reporte Absoluto: Adición retrospectiva integral de botones `Ver Detalles` con modal flotante para enumerar milimétricamente cada byte a eliminar antes de procesarlo.
+- [x] Sistema Documental: Se finaliza el ciclo iterativo adjuntando exhaustiva documentación arquitectónica tanto en el README global como local por módulo.
+
+El proyecto queda formalmente paquetizado para uso Open-Source.
